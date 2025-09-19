@@ -65,7 +65,7 @@ Each model is trained multiple times to reduce randomness, and we report **avera
 
 ## Why Multiple Runs?
 
-Neural networks are **stochastic** results vary per training.  
+Neural networks are **stochastic**, results vary per training.  
 To **trust the results**, we:
 - Train each model **7 times**
 - Take **average prediction**
