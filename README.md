@@ -1,11 +1,11 @@
 # RNN vs LSTM vs GRU _ Denoising a Noisy Signal
 
-This project compares the performance of three recurrent neural network architectures — **SimpleRNN**, **LSTM**, and **GRU** — for denoising a noisy sine wave signal.
+This project compares the performance of three recurrent neural network architectures, **SimpleRNN**, **LSTM**, and **GRU**, for denoising a noisy sine wave signal.
 
 Each model is trained multiple times to reduce randomness, and we report **average RMSE and standard deviation** to ensure fair comparison.
 
 ---
-## RNN vs LSTM vs GRU — What's the Difference?
+## RNN vs LSTM vs GRU _ What's the Difference?
 | Model    | Memory      | Vanishing Gradient | Complexity | Training Time    | Best For                                 |
 | -------- | ----------- | ------------------ | ---------- | ---------------- | ---------------------------------------- |
 | **RNN**  | Short       |  Susceptible      | Low        | Fast             | Simple, short-sequence tasks             |
